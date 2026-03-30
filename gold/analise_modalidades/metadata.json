@@ -1,0 +1,10 @@
+{
+    "nome_dataset": "modalidades_summary_top10",
+    "fonte": "Camada Bronze (olympic_paris_medals)",
+    "descricao": "Contagem total de medalhas distribuídas agrupadas por modalidade (esporte) em Paris 2024.",
+    "campos_principais": [
+        "Esporte",
+        "Total_Medalhas"
+    ],
+    "data_coleta": "2026-03-30"
+}

@@ -1,0 +1,8 @@
+{
+  "nome_dataset": "olympic_paris_medals",
+  "fonte": "Kaggle - Paris 2024 Olympic Summer Games",
+  "descricao": "Lista consolidada de medalhas por evento e país nos Jogos de Paris 2024.",
+  "campos_principais": ["medal_type", "name", "gender", "discipline", "country"],
+  "data_coleta": "2026-03-30",
+  "observacoes": "Contém códigos de gênero específicos: M, W, X (Misto) e O (Open). Ideal para o Quadro de Medalhas (Gold)."
+}

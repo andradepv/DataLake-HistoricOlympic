@@ -1,0 +1,8 @@
+{
+  "nome_dataset": "olympic_historic_Medal_Tally",
+  "fonte": "Kaggle - Olympic Historical Dataset (Olympedia)",
+  "descricao": "Contagem histórica de medalhas (Ouro, Prata, Bronze) por edição dos Jogos e por país (NOC).",
+  "campos_principais": ["edition", "year", "country", "gold", "silver", "bronze"],
+  "data_coleta": "2026-03-30",
+  "observacoes": "Este arquivo é a base para a integração Silver. Permite comparar o desempenho de Paris 2024 com anos anteriores."
+}

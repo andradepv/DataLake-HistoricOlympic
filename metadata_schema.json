@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Esquema de Metadados do Data Lake Olímpico",
+  "description": "Estrutura padrão adotada para a documentação de todos os datasets nas camadas Raw, Bronze e Gold.",
+  "type": "object",
+  "properties": {
+    "nome_dataset": {
+      "type": "string",
+      "description": "Nome exato do arquivo do dataset (sem a extensão)."
+    },
+    "fonte": {
+      "type": "string",
+      "description": "Origem dos dados (ex: Kaggle, API Oficial, ou Camada Anterior)."
+    },
+    "descricao": {
+      "type": "string",
+      "description": "Breve resumo sobre o conteúdo e objetivo do dataset."
+    },
+    "campos_principais": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Lista das colunas mais relevantes para as regras de negócio."
+    },
+    "data_coleta": {
+      "type": "string",
+      "format": "date",
+      "description": "Data em que o dado foi ingerido ou processado no formato YYYY-MM-DD."
+    },
+    "observacoes": {
+      "type": "string",
+      "description": "Notas técnicas sobre JOINs, tratamentos, limpeza de dados ou anomalias."
+    }
+  },
+  "required": ["nome_dataset", "fonte", "descricao", "campos_principais", "data_coleta"]
+}

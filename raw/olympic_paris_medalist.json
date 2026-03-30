@@ -1,0 +1,8 @@
+{
+  "nome_dataset": "olympic_paris_medalist",
+  "fonte": "Kaggle - Paris 2024 Olympic Summer Games",
+  "descricao": "Dados detalhados dos atletas que conquistaram medalhas, incluindo data de nascimento e códigos de equipe.",
+  "campos_principais": ["name", "gender", "country_code", "birth_date", "discipline", "is_medallist"],
+  "data_coleta": "2026-03-30",
+  "observacoes": "Dataset granular ao nível do atleta. Permite análises demográficas (idade média dos medalhistas)."
+}

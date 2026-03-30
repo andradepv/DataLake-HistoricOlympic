@@ -1,0 +1,12 @@
+{
+    "nome_dataset": "quadro_medalhas_top10",
+    "fonte": "Camada Bronze (olympic_paris_medals)",
+    "descricao": "Quadro de medalhas agregado e ordenado para os 10 melhores países de Paris 2024.",
+    "campos_principais": [
+        "country",
+        "Ouro",
+        "Prata",
+        "Bronze"
+    ],
+    "data_coleta": "2026-03-30"
+}
